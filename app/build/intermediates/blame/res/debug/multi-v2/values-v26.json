@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\fahrnin\\AndroidStudioProjects\\musicloader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\fahrnin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\67fb1be5e39835348bd4fb6d93ef0f6f\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    }
+                }
+            ]
+        }
+    ]
+}

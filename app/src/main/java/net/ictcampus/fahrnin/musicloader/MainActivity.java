@@ -20,13 +20,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        intent = new Intent(this,ScrollingActivity.class);
+        intent = new Intent(this,Main2Activity.class);
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         setContentView(R.layout.activity_main);
-
 
         sv = (SearchView) findViewById(R.id.searchBar);
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

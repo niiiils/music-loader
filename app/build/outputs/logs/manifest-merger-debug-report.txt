@@ -1,82 +1,131 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\eb389ee6c3ca1ad09226bba62f8f17b1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\67fb1be5e39835348bd4fb6d93ef0f6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\64e2718051a0e7b69b07b241b9c45756\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-10.2.1.aar\ffd380f716bcc3bb7d43c610fde75341\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\e110ef424b16bd6b6453824e0c0926f0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d2f338628583b96dfd4ea6e811a31b40\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\db1385f89491bc05b72c4fac13ab2f24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\2b47cad5a8486d4575fb8e9ad4fd60d2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0069d43fc10b1029b969d3d148fac353\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\33ebe20ebcaef40a1112a8527170adf6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\aec47494da1db0b0715163019e471f9a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ac55e45866e9cd656b91c275dfd59172\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4ffad1d3c466b07fc487e3b44702af49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b5c67c026b379c1a3b24db788fb6665e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3ed5127d615a3559dd3ca36fc245d988\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\feaa7d5d9ca2b66f9867e27f078e8426\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c8ce1a94fe2b5680e9000a2b74ce662\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02656a6139dc5c742bf9b28d2054467e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\feaa7d5d9ca2b66f9867e27f078e8426\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33bb62b68672cfd2a140ccb1d503e461\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c8ce1a94fe2b5680e9000a2b74ce662\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:7:5-27:19
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:19:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\64e2718051a0e7b69b07b241b9c45756\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\64e2718051a0e7b69b07b241b9c45756\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\e110ef424b16bd6b6453824e0c0926f0\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\e110ef424b16bd6b6453824e0c0926f0\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:19:5-21:19
 	android:supportsRtl
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:11:9-52
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:13:9-40
 activity#net.ictcampus.fahrnin.musicloader.MainActivity
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:18:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:19:9-21:57
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:22:9-24:57
 	android:resource
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:21:13-54
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:24:13-54
 	android:name
-		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:20:13-43
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:23:13-43
+activity#net.ictcampus.fahrnin.musicloader.Main2Activity
+ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:26:9-60
+	android:name
+		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml:26:19-48
 uses-sdk
 INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\eb389ee6c3ca1ad09226bba62f8f17b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\eb389ee6c3ca1ad09226bba62f8f17b1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\67fb1be5e39835348bd4fb6d93ef0f6f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\67fb1be5e39835348bd4fb6d93ef0f6f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\64e2718051a0e7b69b07b241b9c45756\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.1.aar\64e2718051a0e7b69b07b241b9c45756\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-10.2.1.aar\ffd380f716bcc3bb7d43c610fde75341\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-10.2.1.aar\ffd380f716bcc3bb7d43c610fde75341\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\e110ef424b16bd6b6453824e0c0926f0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.1.aar\e110ef424b16bd6b6453824e0c0926f0\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d2f338628583b96dfd4ea6e811a31b40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d2f338628583b96dfd4ea6e811a31b40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\db1385f89491bc05b72c4fac13ab2f24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\db1385f89491bc05b72c4fac13ab2f24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\2b47cad5a8486d4575fb8e9ad4fd60d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\2b47cad5a8486d4575fb8e9ad4fd60d2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0069d43fc10b1029b969d3d148fac353\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0069d43fc10b1029b969d3d148fac353\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\33ebe20ebcaef40a1112a8527170adf6\AndroidManifest.xml:20:5-44
@@ -87,16 +136,18 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\fahrnin\.gr
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ac55e45866e9cd656b91c275dfd59172\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4ffad1d3c466b07fc487e3b44702af49\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\4ffad1d3c466b07fc487e3b44702af49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b5c67c026b379c1a3b24db788fb6665e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b5c67c026b379c1a3b24db788fb6665e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3ed5127d615a3559dd3ca36fc245d988\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3ed5127d615a3559dd3ca36fc245d988\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\feaa7d5d9ca2b66f9867e27f078e8426\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\feaa7d5d9ca2b66f9867e27f078e8426\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c8ce1a94fe2b5680e9000a2b74ce662\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c8ce1a94fe2b5680e9000a2b74ce662\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02656a6139dc5c742bf9b28d2054467e\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02656a6139dc5c742bf9b28d2054467e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\feaa7d5d9ca2b66f9867e27f078e8426\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\feaa7d5d9ca2b66f9867e27f078e8426\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33bb62b68672cfd2a140ccb1d503e461\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\33bb62b68672cfd2a140ccb1d503e461\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c8ce1a94fe2b5680e9000a2b74ce662\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c8ce1a94fe2b5680e9000a2b74ce662\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -107,3 +158,45 @@ INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\An
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fahrnin\AndroidStudioProjects\musicloader\app\src\main\AndroidManifest.xml
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\605a81042dd65766ff152b5c0caeb708\AndroidManifest.xml:13:13-86
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-auth-10.2.1.aar\b9c01027338bfc3db3889711deceb97b\AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.1.aar\cbd93930140054657b1c034fcc592d72\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\fahrnin\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.1.aar\5e99659e8d7b71159953819afcd6ea11\AndroidManifest.xml:20:20-65

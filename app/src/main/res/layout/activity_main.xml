@@ -8,19 +8,6 @@
     tools:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="393dp"
-        android:layout_height="291dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="220dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:background="#e96666" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="98dp"
@@ -45,7 +32,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="270dp"
-        android:layout_height="138dp"
+        android:layout_height="81dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"

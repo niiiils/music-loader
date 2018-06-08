@@ -1,8 +1,6 @@
 <resources>
-<<<<<<< HEAD
     <string name="app_name">musicloader</string>
-=======
-    <string name="app_name">MusicLoader</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -93,5 +91,4 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
->>>>>>> b8f1345dc5914fe16fd63a338602f069cc83e68b
 </resources>

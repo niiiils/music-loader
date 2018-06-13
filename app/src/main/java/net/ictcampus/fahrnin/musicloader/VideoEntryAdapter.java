@@ -42,7 +42,6 @@ public class VideoEntryAdapter extends ArrayAdapter<VideoEntry> implements View.
         VideoEntry entry = getItem(position);
         // Check if an existing view is being reused, otherwise inflate the view
         ViewHolder viewHolder; // view lookup cache stored in tag
-        System.out.println("acne");
         final View result;
 
         if (convertView == null) {

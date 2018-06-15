@@ -26,12 +26,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         intent = new Intent(this,DownloadActivity.class);
-    }
 
-
-    @Override
-    protected void onResume() {
-        super.onResume();
         Bundle bundle = getIntent().getExtras();
         String sq = bundle.getString(MESSAGE_SEARCH);
         YoutubeManager yM = new YoutubeManager();
@@ -58,5 +53,12 @@ public class Main2Activity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
     }
 }

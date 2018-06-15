@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 27
     defaultConfig {
@@ -25,6 +24,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    api group: 'org.glassfish.jersey', name: 'project', version: '2.27', ext: 'pom'
+    api group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.0'
+    api group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.6'
+    api group: 'org.glassfish.jersey.media', name: 'jersey-media-multipart', version: '2.27'
+    api group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.5'
+    api group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.9.5'
+    api group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.27'
+
 }
 
 apply plugin: 'com.android.application'
@@ -35,7 +42,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.quickstart"
-        minSdkVersion 14
+        minSdkVersion 26
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -47,6 +54,10 @@ android {
                     'proguard-rules.pro'
         }
     }
+    //compileOptions {
+    //    sourceCompatibility JavaVersion.VERSION_1_8
+    //    targetCompatibility JavaVersion.VERSION_1_8
+    //}
 }
 
 dependencies {
@@ -57,6 +68,7 @@ dependencies {
     api('com.google.api-client:google-api-client-android:1.23.0') {
         exclude group: 'org.apache.httpcomponents'
     }
+
     api('com.google.apis:google-api-services-youtube:v3-rev198-1.23.0') {
         exclude group: 'org.apache.httpcomponents'
     }
@@ -71,3 +83,4 @@ dependencies {
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:+'
 }
+

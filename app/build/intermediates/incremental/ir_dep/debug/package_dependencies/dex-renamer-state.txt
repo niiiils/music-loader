@@ -1,4 +1,7 @@
-#Wed Jun 13 08:42:53 CEST 2018
-base.0=C\:\\Users\\fahrnin\\AndroidStudioProjects\\musicloader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+#Thu Jun 14 16:01:25 CEST 2018
+base.0=C\:\\Users\\fahrnin\\AndroidStudioProjects\\musicloader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\fahrnin\\AndroidStudioProjects\\musicloader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10

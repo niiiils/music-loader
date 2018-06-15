@@ -2,15 +2,13 @@ package net.ictcampus.fahrnin.musicloader;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
+import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import net.ictcampus.fahrnin.musicloader.yt2mp3.DownloadMP3;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,8 +32,19 @@ public class DownloadActivity extends AppCompatActivity {
         downloadBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DownloadMP3.downloadMP3(bundle.getString("VideoID"),"/storage/sdcard0/Downloads");
-                System.out.print("sassasasas");
+
+                AsyncTask task = new AsyncTask(){
+
+                    @Override
+                    protected Object doInBackground(Object[] objects) {
+
+                        Mp3Downloader.downloadAsMp3(bundle.getString("VideoID"));
+                        return null;
+                    }
+
+                };
+
+                task.execute();
             }
         });
     }
@@ -57,7 +66,6 @@ public class DownloadActivity extends AppCompatActivity {
 
     public void loadThumbnail(String src){
         ImageView imageView = (ImageView) findViewById(R.id.imageViewthumbnail);
-
         Bitmap image = getBitmapFromURL(src) ;
 
         imageView.setScaleType(ImageView.ScaleType.FIT_XY);
